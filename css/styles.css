@@ -96,22 +96,22 @@ body {
   height: 60px;
   background-color: #fff;
 }
-.dei-1  { top: 0;   left: 0;  }
-.dei-2  { top: 0;   left: 70px; }
-.dei-3  { top: 0;   left: 140px; }
-.dei-4  { top: 0;   left: 210px; }
-.dei-5  { top: 70px;   left: 0;  }
-.dei-6  { top: 70px;   left: 70px; }
-.dei-7  { top: 70px;   left: 140px; }
-.dei-8  { top: 70px;   left: 210px; }
-.dei-9  { top: 140px;   left: 0;  }
-.dei-10 { top: 140px;   left: 70px; }
-.dei-11 { top: 140px;   left: 140px; }
-.dei-12 { top: 140px;   left: 210px; }
-.dei-13 { top: 210px;   left: 0;  }
-.dei-14 { top: 210px;   left: 70px; }
-.dei-15 { top: 210px;   left: 140px; }
-.dei-16 { top: 210px;   left: 210px; }
+.dei-1  { top: 0;   left: 0; background:url("../img/test.jpg"); background-size: 100px 100px;  }
+.dei-2  { top: 0;   left: 70px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-3  { top: 0;   left: 140px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-4  { top: 0;   left: 210px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-5  { top: 70px;   left: 0;  background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-6  { top: 70px;   left: 70px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-7  { top: 70px;   left: 140px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-8  { top: 70px;   left: 210px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-9  { top: 140px;   left: 0;  background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-10 { top: 140px;   left: 70px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-11 { top: 140px;   left: 140px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-12 { top: 140px;   left: 210px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-13 { top: 210px;   left: 0;  background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-14 { top: 210px;   left: 70px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-15 { top: 210px;   left: 140px; background:url("../img/test.jpg"); background-size: 100px 100px;}
+.dei-16 { top: 210px;   left: 210px; background:url("../img/test.jpg"); background-size: 100px 100px;}
 
 
 /* 3. Images Keyframe
