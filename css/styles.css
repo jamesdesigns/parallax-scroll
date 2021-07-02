@@ -44,11 +44,12 @@ body {
   font-weight: 900;
 }
 .byline { 
-  font-size: 15px;
+  font-size: 28px;
   letter-spacing: 4px;
   text-align: center;
   font-weight: 300;
   margin-top: -70px;
+  text-transform: capitalize;
 }
 .ampersand {
   font-family: "Adobe Caslon Pro", "brandon-grotesque";
