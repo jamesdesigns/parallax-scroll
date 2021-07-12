@@ -73,7 +73,7 @@ body {
   color: white;
   max-width: 25%;
   opacity: 0;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .images-byline {
@@ -83,7 +83,7 @@ body {
   color: white;
   max-width: 25%;
   opacity: 0;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .images-byline-2 {
@@ -94,7 +94,7 @@ body {
   color: white;
   width: 50%;
   opacity: 0;
-  margin-top: -70px;
+  /* margin-top: -0px; */
 }
 
 /* 3. Explosion Keyframe
