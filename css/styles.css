@@ -58,6 +58,12 @@ body {
 
 /* 2. Explosion/Images/Links Structure and Text
 --------------------------------------- */
+.headline2 { 
+  margin-top: -50px;
+  margin-right: 5px;
+  padding-bottom: 30px;
+}
+
 #explosion,
 #images {
   position: fixed;
@@ -66,7 +72,8 @@ body {
   height: 100%;
 }
 .explosion-byline,
-.images-byline {
+.images-byline
+{
   position: fixed;
   top: 63%;
   right: 10%;
@@ -111,6 +118,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #fff;
+
 }
 .dei-1  { top: 0;   left: 0; background:url("../img/user-1.jpeg"); background-size: 100px 100px;  }
 .dei-2  { top: 0;   left: 70px; background:url("../img/user-2.jpeg"); background-size: 100px 100px;}
