@@ -284,7 +284,7 @@ body {
   display: none;
 }
 
-@media all and (max-width: 1000px) {
+/* @media all and (max-width: 1000px) {
   .container {
     display: none;
   }
@@ -292,5 +292,5 @@ body {
     display: block;
     font-size: 22px;
   }
-}
+} */
 
