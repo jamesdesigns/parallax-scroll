@@ -283,6 +283,7 @@ body {
 .page-error .container {
   display: none;
 }
+
 @media all and (max-width: 1000px) {
   .container {
     display: none;
@@ -292,3 +293,4 @@ body {
     font-size: 22px;
   }
 }
+
