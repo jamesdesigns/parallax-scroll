@@ -54,7 +54,7 @@ body {
 --------------------------------------- */
 #intro {
   position: fixed;
-  top: 38%;
+  top: 30%;
   left: 10%;
   width: 80%;
   color: #fff;
@@ -72,7 +72,7 @@ body {
   letter-spacing: 4px;
   text-align: center;
   font-weight: 300;
-  margin-top: -70px;
+  margin-top: -90px;
   text-transform: capitalize;
 }
 .ampersand {
