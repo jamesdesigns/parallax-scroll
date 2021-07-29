@@ -19,12 +19,9 @@ body {
 
 .progress-bar {
   height: 5px;
-  background: red;
+  background: white;
   width: 0%;
 }
-
-
-
 
 
 .background {
@@ -33,6 +30,7 @@ body {
   height: 100%;
   /* background-image: url('../img/bg2.jpg'); */
   /* background-color: red; */
+  background: url(../img/entrata-bg.png);
   background-color: black;
   background-size: cover;
   background-position: center;
