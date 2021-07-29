@@ -267,7 +267,7 @@ body {
 
 /* 4. Handling resize and small devices
 --------------------------------------- */
-.error {
+/* .error {
   display: none;
   position: fixed;
   width: 80%;
@@ -282,7 +282,7 @@ body {
 }
 .page-error .container {
   display: none;
-}
+} */
 
 /* @media all and (max-width: 1000px) {
   .container {
