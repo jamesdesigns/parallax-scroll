@@ -11,6 +11,34 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 <script type="text/javascript" src="//use.typekit.net/rws3een.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<style>
+  /* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+</style>
 </head>
 <body>
   <div class="header">
@@ -24,8 +52,8 @@
     <div class="background"></div>
     <section id="intro" class="wrapper">
 
-      <h1 class="name fadeIn"><img src="img/entrata_white_lettermark.png" width="900" alt="entrata" /></h1>
-      <h2 class="byline fadeIn">The Smart Choice</h2>
+      <h1 class="fade-in one name fadeIn"><img src="img/entrata_white_lettermark.png" width="900" alt="entrata" /></h1>
+      <h2 class="fade-in one byline fadeIn ">The Smart Choice</h2>
     </section>
     <section id="explosion" class="wrapper">
       <!-- <h2 class="explosion-byline headline1"><span style="font-size: 28px;">Move More Residents</span></h2> -->
@@ -71,8 +99,11 @@
   <!-- Navigation will go here -->
 </div>
 <h3 class="error">Whoops! Right now this demo doesn't handle resizing or browsers less than 1000px wide. Reload this page or get on a laptop!</h3>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/GSDevTools3.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script>
 <script src="js/jquery-2.0.2.min.js"></script>
 <script src="js/picasso.js"></script>
 <script src="js/script.js"></script>
+
 </body>
 </html>
